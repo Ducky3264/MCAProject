@@ -4,7 +4,7 @@ const hostname = '0.0.0.0';
 const port = 80;
 const express = require('express');
 const app = express();
-//Include express and set up the server to host outward (0.0.0.0)
+//Include express and set up the server to host outward (0.0.0.0)'
 //Function to read from the state file (Make sure this is manually created, you can use "echo off > state.txt" on any bash system) in the working directory (./)
 function getS() {
     fs.readFile('./state.txt', 'utf8', (err, data) => {
